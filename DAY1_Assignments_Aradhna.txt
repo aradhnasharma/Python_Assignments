@@ -1,0 +1,44 @@
+1.   
+names = ["john", "jake", "jack", "george", "jenny", "jason","jason"]
+namesset=set(names) # creating set just in case if list has duplicate
+#print(names)
+#print(namesset)
+for x in namesset:
+ if len(x)<5 and "e" not in (x):
+   print(x)
+   
+   
+   
+2. 
+a="PYTHON"
+print(a)
+print("C"+a[1:len(a)])
+ 
+ 
+3.
+dict_a={"name": "python", "ext": "py", "creator": "guido"}
+key_a = dict_a.keys()
+value_a = dict_a.values()
+print(key_a)
+print(value_a)
+
+4.
+
+ a=int(input("Enter a Number: "))
+print(a)
+if a%3==0 and a%5==0:
+  print("FizzBuzz")
+elif a%3==0:
+  print("Fizz")
+elif a%5==0:
+  print("Buzz")
+  
+5. 
+
+a=int(input("Enter a Number: "))
+h_num=10
+#print(a)
+if a>h_num:
+  print(str(a) +" is greater than 10")
+else:
+  print(str(a) +" is less than 10")
